@@ -1,0 +1,15 @@
+{
+  "pluginType": "datasource",
+  "name": "AirVantage",
+
+  "type": "airvantage",
+  "serviceName": "AirVantageDatasource",
+
+  "module": "app/plugins/datasource/airvantage/datasource",
+
+  "partials": {
+    "config": "app/plugins/datasource/airvantage/partials/config.html"
+  },
+
+  "metrics": true
+}
