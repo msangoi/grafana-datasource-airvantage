@@ -5,31 +5,58 @@
 
 <div class="tight-form">
 	<ul class="tight-form-list">
-		<li class="tight-form-item" style="width: 80px">Url</li>
+		<li class="tight-form-item" style="width: 75px">Url</li>
 		<li>
-			<input type="url" class="tight-form-input input-large" ng-model='current.url' placeholder="" required></input>
+			<input type="text" class="tight-form-input input-xlarge" ng-model='current.url' placeholder="" required></input>
+		</li>
+	</ul>
+	<div class="clearfix"></div>
+</div>
+
+<div class="tight-form">
+	<ul class="tight-form-list">
+		<li class="tight-form-item" style="width: 75px">Client ID</li>
+		<li>
+			<input type="text" class="tight-form-input input-xlarge" ng-model='current.jsonData.clientId' placeholder="" required></input>
 		</li>
 	</ul>
 	<div class="clearfix"></div>
 </div>
 <div class="tight-form">
 	<ul class="tight-form-list">
-		<li class="tight-form-item" style="width: 80px">User</li>
+		<li class="tight-form-item" style="width: 75px">Secret Key</li>
 		<li>
-			<input type="text" class="tight-form-input input-large" ng-model='current.user' placeholder="" required></input>
-		</li>
-		<li class="tight-form-item">Password</li>
-		<li>
-			<input type="password" class="tight-form-input input-large" ng-model='current.password' placeholder="" required></input>
+			<input type="password" class="tight-form-input input-xlarge" ng-model='current.jsonData.secretKey' placeholder="" required></input>
 		</li>
 	</ul>
 	<div class="clearfix"></div>
 </div>
+
+<div class="tight-form">
+	<ul class="tight-form-list">
+		<li class="tight-form-item" style="width: 75px">User</li>
+		<li>
+			<input type="text" class="tight-form-input input-xlarge" ng-model='current.jsonData.user' placeholder="" required></input>
+		</li>
+	</ul>
+	<div class="clearfix"></div>
+</div>
+<div class="tight-form">
+	<ul class="tight-form-list">
+		<li class="tight-form-item" style="width: 75px">Password</li>
+		<li>
+			<input type="password" class="tight-form-input input-xlarge" ng-model='current.jsonData.password' placeholder="" required></input>
+		</li>
+	</ul>
+	<div class="clearfix"></div>
+</div>
+
+
 <div class="tight-form last">
 	<ul class="tight-form-list">
-		<li class="tight-form-item" style="width: 80px">System ID</li>
+		<li class="tight-form-item" style="width: 75px">System ID</li>
 		<li>
-			<input type="text" class="tight-form-input input-large" ng-model='current.jsonData.systemId' placeholder="" required></input>
+			<input type="text" class="tight-form-input input-xlarge" ng-model='current.jsonData.systemId' placeholder="" required></input>
 		</li>
 	</ul>
 	<div class="clearfix"></div>
